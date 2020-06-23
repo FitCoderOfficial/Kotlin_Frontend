@@ -1,7 +1,7 @@
-# Call-BlackBox Functional Statement
-# 콜블랙박스 기능 명세서
+# 콜-블랙박스 기능 명세서 Call-BlackBox Functional Statement
 
 
+<h1>대표기능</h1>
 전화통화 녹음, 녹음된 음성파일 리스트 확인, 삭제될 기간 설정
 
 
