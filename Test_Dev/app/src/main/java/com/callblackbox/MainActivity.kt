@@ -24,12 +24,13 @@ class MainActivity : AppCompatActivity() {
             // var는 변수를 의미 val 자바에서 final을 의미, 변경되지 못하는 변수
             val intent = Intent(this, Subactivity::class.java) // 다음 화면으로 이동하기 위한 인텐트 객체
 
-            intent.putExtra( "msg", msg_sending.text.toString()) //타이틀 텍스트를 msg라는 키값으로 묶음
+            //intent.putExtra( "msg", msg_sending.text.toString()) //타이틀 텍스트를 msg라는 키값으로 묶음
             startActivity(intent)
+            finish()
 
         }
 
-        tv_title.setText("Hello World..")
+
 
 
     }

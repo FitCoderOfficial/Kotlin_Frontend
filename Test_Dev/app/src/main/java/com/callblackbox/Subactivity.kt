@@ -9,12 +9,12 @@ class Subactivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        if(intent.hasExtra("msg"))
-        {
-
-            tv_getmsg.text = intent.getStringExtra( "msg")
-
-        }
+//        if(intent.hasExtra("msg"))
+//        {
+//
+//            tv_getmsg.text = intent.getStringExtra( "msg")
+//
+//        }
 
 
 
