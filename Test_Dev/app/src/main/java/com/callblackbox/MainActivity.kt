@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btn_sub2.setOnClickListener {
+            val intent2 = Intent(this, ImageActivity::class.java) // 다음 화면으로 이동하기 위한 인텐트 객체
+            startActivity(intent2)
+        }
+
 
 
 
